@@ -50,7 +50,7 @@
      .true {
           font-size: 60px;
           color: green;
-          animation: pulseTrue 1s infinite;
+          animation: pulseTrue 1s ease-in-out infinite;
      }
 
      @keyframes pulseFalse {
@@ -72,7 +72,7 @@
      .false {
           font-size: 60px;
           color: red;
-          animation: pulseFalse 1s infinite;
+          animation: pulseFalse 1s ease-in-out infinite;
      }
 
      
